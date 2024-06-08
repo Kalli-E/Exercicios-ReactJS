@@ -1,0 +1,28 @@
+.botaoBase{
+    background-color:transparent;
+    border-color: rgb(35, 28, 81);
+    border-radius: 4px;
+    width: auto;
+ 
+    transition: transform 0.3s ease-in-out;
+}
+
+.botaoBase:hover{
+    background-color: rgb(35, 28, 81);
+    border-color: transparent;
+    /* transform: scale(0,8); */
+}
+/* -------------------------------------------------- */
+.botaoFormulario{
+    background-color: transparent;
+    border-color: rgb(61, 43, 226);
+    border-radius: 4px;
+    width: auto;
+
+    transition: transform 0.3s ease-in-out;
+}
+.botaoFormulario:hover{
+    background-color: rgb(61, 43, 226);
+    border-color: transparent;
+    /* transform: scale(0,8) ; */
+}
